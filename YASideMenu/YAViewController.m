@@ -6,9 +6,9 @@
 //  Copyright © 2020 ToolMaker. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "YAViewController.h"
 
-@interface ViewController () {
+@interface YAViewController () {
     UIViewPropertyAnimator *_ani;
     UIViewPropertyAnimator *_cornerAni;
     UIView * _sprite;
@@ -17,7 +17,7 @@
 
 @end
 
-@implementation ViewController
+@implementation YAViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
