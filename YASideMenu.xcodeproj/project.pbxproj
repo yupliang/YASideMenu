@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD75645C246A475A00A2F0E4 /* YALagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = FD75645A246A475A00A2F0E4 /* YALagMonitor.m */; };
+		FD75645D246A475A00A2F0E4 /* YALagMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = FD75645B246A475A00A2F0E4 /* YALagMonitor.h */; };
 		FD7AB56A2467B072009F8198 /* YYFPSLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7AB5682467B072009F8198 /* YYFPSLabel.h */; };
 		FD7AB56B2467B072009F8198 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7AB5692467B072009F8198 /* YYFPSLabel.m */; };
 		FD7AB56F2467B136009F8198 /* YAProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7AB56D2467B136009F8198 /* YAProxy.h */; };
@@ -29,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD75645A246A475A00A2F0E4 /* YALagMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALagMonitor.m; sourceTree = "<group>"; };
+		FD75645B246A475A00A2F0E4 /* YALagMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALagMonitor.h; sourceTree = "<group>"; };
 		FD7AB5682467B072009F8198 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
 		FD7AB5692467B072009F8198 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		FD7AB56D2467B136009F8198 /* YAProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAProxy.h; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		FD7F2C7323D091430098D913 /* YASideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				FD75645B246A475A00A2F0E4 /* YALagMonitor.h */,
+				FD75645A246A475A00A2F0E4 /* YALagMonitor.m */,
 				FD7AB56C2467B118009F8198 /* YAProxy */,
 				FD7F2C7423D091430098D913 /* YASideMenu.h */,
 				FD7F2C8C23D091C00098D913 /* YAViewController.h */,
@@ -127,6 +133,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD75645D246A475A00A2F0E4 /* YALagMonitor.h in Headers */,
 				FD7F2C8223D091430098D913 /* YASideMenu.h in Headers */,
 				FD7F2C8E23D091C00098D913 /* YAViewController.h in Headers */,
 				FD7AB56A2467B072009F8198 /* YYFPSLabel.h in Headers */,
@@ -234,6 +241,7 @@
 				FD7AB56B2467B072009F8198 /* YYFPSLabel.m in Sources */,
 				FD7F2C8D23D091C00098D913 /* YAViewController.m in Sources */,
 				FD7AB5702467B136009F8198 /* YAProxy.m in Sources */,
+				FD75645C246A475A00A2F0E4 /* YALagMonitor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
