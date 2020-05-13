@@ -15,5 +15,6 @@ FOUNDATION_EXPORT double YASideMenuVersionNumber;
 FOUNDATION_EXPORT const unsigned char YASideMenuVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <YASideMenu/PublicHeader.h>
-
-
+#import <YASideMenu/YYFPSLabel.h>
+#import <YASideMenu/QueueThreadPool.h>
+#import <YASideMenu/YALagMonitor.h>
