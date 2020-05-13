@@ -18,6 +18,8 @@
 		FD7F2C8223D091430098D913 /* YASideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7F2C7423D091430098D913 /* YASideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD7F2C8D23D091C00098D913 /* YAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD7F2C8B23D091C00098D913 /* YAViewController.m */; };
 		FD7F2C8E23D091C00098D913 /* YAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7F2C8C23D091C00098D913 /* YAViewController.h */; };
+		FD82CB33246BE30E0019041F /* QueueThreadPool.m in Sources */ = {isa = PBXBuildFile; fileRef = FD82CB31246BE30D0019041F /* QueueThreadPool.m */; };
+		FD82CB34246BE30E0019041F /* QueueThreadPool.h in Headers */ = {isa = PBXBuildFile; fileRef = FD82CB32246BE30E0019041F /* QueueThreadPool.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		FD7F2C8123D091430098D913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD7F2C8B23D091C00098D913 /* YAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAViewController.m; sourceTree = "<group>"; };
 		FD7F2C8C23D091C00098D913 /* YAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAViewController.h; sourceTree = "<group>"; };
+		FD82CB31246BE30D0019041F /* QueueThreadPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueueThreadPool.m; sourceTree = "<group>"; };
+		FD82CB32246BE30E0019041F /* QueueThreadPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueueThreadPool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 			children = (
 				FD75645B246A475A00A2F0E4 /* YALagMonitor.h */,
 				FD75645A246A475A00A2F0E4 /* YALagMonitor.m */,
+				FD82CB32246BE30E0019041F /* QueueThreadPool.h */,
+				FD82CB31246BE30D0019041F /* QueueThreadPool.m */,
 				FD7AB56C2467B118009F8198 /* YAProxy */,
 				FD7F2C7423D091430098D913 /* YASideMenu.h */,
 				FD7F2C8C23D091C00098D913 /* YAViewController.h */,
@@ -133,6 +139,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD82CB34246BE30E0019041F /* QueueThreadPool.h in Headers */,
 				FD75645D246A475A00A2F0E4 /* YALagMonitor.h in Headers */,
 				FD7F2C8223D091430098D913 /* YASideMenu.h in Headers */,
 				FD7F2C8E23D091C00098D913 /* YAViewController.h in Headers */,
@@ -240,6 +247,7 @@
 			files = (
 				FD7AB56B2467B072009F8198 /* YYFPSLabel.m in Sources */,
 				FD7F2C8D23D091C00098D913 /* YAViewController.m in Sources */,
+				FD82CB33246BE30E0019041F /* QueueThreadPool.m in Sources */,
 				FD7AB5702467B136009F8198 /* YAProxy.m in Sources */,
 				FD75645C246A475A00A2F0E4 /* YALagMonitor.m in Sources */,
 			);
